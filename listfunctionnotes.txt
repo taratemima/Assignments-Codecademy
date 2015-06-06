@@ -1,0 +1,15 @@
+for i in range(len(list)):
+    print list[i]
+
+If altering numbers in a list
+
+n = ["Michael", "Lieberman"]
+# Add your function here
+def join_strings(words):
+    result = ''
+    for w in words:
+        result = result+w
+    return result 
+
+
+print join_strings(n)

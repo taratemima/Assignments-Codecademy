@@ -1,0 +1,22 @@
+hobbies = []
+
+# Add your code below!
+for r in range(3):
+    hobby = raw_input("What is your hobby? ")
+    hobbies.append(hobby)
+
+phrase = "A bird in the hand..."
+
+# Add your for loop
+for char in phrase:
+    if(char == 'A') or (char == 'a'):
+        print 'X',
+    else: 
+        print char,
+
+for key in d:
+    print key,d[key]
+
+
+#Don't delete this print statement!
+print
